@@ -778,7 +778,7 @@ let emojiPickerTarget = null; // member id being edited
 
 function saveAllVotes() { try { localStorage.setItem(VOTE_KEY, JSON.stringify(allVotes)); } catch(e){} }
 function saveEmojis()    { try { localStorage.setItem(EMOJI_KEY, JSON.stringify(memberEmojis)); } catch(e){} }
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbyQD4j3ewEjKKQGAL3xgAtBKvSeIozQPTIsR4iLCUsAfni_AhZ7znRYXY5zAtH_EogG/exec';
+const GAS_URL = 'hhttps://script.google.com/macros/s/AKfycby3T9ygOaIyJN2zRplK-rsUZC-ApzREN6NV5NFssnwk5we9Basmp41kACMG7SN49N3-/exec';
 
 function pushVoteToGAS(facId, score) {
   if (!currentMemberId) return;
